@@ -1,4 +1,4 @@
-Genetic Algorith ( Ou nois mano portuges, Algoritmo Genetion AG)
+Genetic Algorithm ( Ou nois mano portugues, Algoritmo Genético AG)
 
 ag release date: 29/08/2012
 
