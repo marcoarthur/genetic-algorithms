@@ -1,0 +1,11 @@
+Genetic Algorith ( Ou nois mano portuges, Algoritmo Genetion AG)
+
+ag release date: 29/08/2012
+
+features:
+	1. fitness functions on this version:
+		ACK, CM, HSK, GP,
+
+	2. cross overs we have:
+		geometric, mean, blx
+
