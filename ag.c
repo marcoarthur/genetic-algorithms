@@ -64,7 +64,8 @@ void do_crossover(struct individual_str *p1, struct individual_str *p2) {
     if ( ! cross )
         return;
 
-    mean_cross(p1, p2);
+    //mean_cross(p1, p2);
+	geom_cross(p1, p2);
 }
 
 void mean_cross(struct individual_str *p1, struct individual_str *p2) {
@@ -299,7 +300,7 @@ double ga_selection(struct population_str *p, int unsigned generation) {
 
 void summary_ind(const struct individual_str *p) {
     int i;
-    printf("fitness:%3.2f\t", p->fitness);
+    printf("fitness:%3.4f\t", p->fitness);
 
     for (i = 0; i < GENES; i++)
         printf("x[%d]=%3.4f\t", i, p->gene[i]);
